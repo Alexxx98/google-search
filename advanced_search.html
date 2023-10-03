@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body style="background-color: white;">
+
+        <div id="navbar">
+
+            <div>
+                <a style="text-decoration: none;" href="index.html">
+                    <span class="glogo" style="color: rgb(0, 102, 204);">G</span>
+                    <span class="glogo" style="color: red;">o</span>
+                    <span class="glogo" style="color: rgb(255, 238, 0);">o</span>
+                    <span class="glogo" style="color: rgb(0, 102, 204);">g</span>
+                    <span class="glogo" style="color: green;">l</span>
+                    <span class="glogo" style="color: red;">e</span>
+                </a>
+            </div>
+
+            <a href="index.html">Regular Search</a>
+            <a href="image_search.html">Image Search</a>
+ 
+        </div>
+
+    <div id="advanced-search">
+        <h1>Advanced Search</h1>
+    </div>
+        <form action="https://google.com/search">
+
+            <div id="grid">
+                <h2>Find pages with...</h2>
+                <label></label>
+                <label class="advanced-label" for="as_q">all these words:</label>
+                <input class="advanced-input" type="text" name="as_q">
+                <label class="advanced-label" for="as_eqp">this exact word or phrase:</label>
+                <input class="advanced-input" type="text" name="as_eqp">
+                <label class="advanced-label" for="as_oq">any of these words:</label>
+                <input class="advanced-input" type="text" name="as_oq">
+                <label class="advanced-label" for="as_eq">none of these words:</label>
+                <input class="advanced-input" type="text" name="as_eq">
+                <label for="submit"></label>
+                <span style="text-align: right;">
+                    <input id="adv-submit-btn" type="submit" value="Advanced Search" name="submit">
+                </span>
+            </div>
+        </form>
+    </div>
+
+    </body>
+</html>

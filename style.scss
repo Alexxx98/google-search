@@ -1,0 +1,59 @@
+@media (max-height: 600px) {
+    #search {
+        margin: auto;
+    }
+}
+
+#advanced-search {
+    padding-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 100px;
+}
+
+#advanced-search > h1{
+    color: red;
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 50px;
+}
+
+#grid {
+    padding-left: 50px;
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: 200px 570px;
+}
+
+#grid > h2 {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.advanced-label {
+    padding: 5px;
+    font-size: 12px;
+}
+
+.advanced-input {
+    height: 20px;
+}
+
+#google {
+    font-size: 84px;
+}
+
+#text-input {
+    border-radius: 15px;
+    background-color: $background;
+    border: 1px solid grey;
+    width: 350px;
+    height: 25px;
+    color: $text-color;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#text-input:hover {
+    background-color: $hover-color;
+    border: 1px solid $hover-color;
+}
